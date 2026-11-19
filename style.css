@@ -1,30 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px;
 }
 
 h1 {
     text-align: center;
-    color: navy;
 }
 
-.profile-container {
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    max-width: 1000px;
-    margin: auto;
 }
 
-.profile-section {
+.profile {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
-}
-
-img {
-    width: 250px;
     border-radius: 10px;
 }
